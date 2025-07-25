@@ -1,0 +1,69 @@
+		body {
+			line-height: 1.6;
+			margin: 20px;
+			background-color: #000;
+ 			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			font-family: Clash Regular, sans-serif;
+			color: #fff;
+		}
+		.gorseller {
+		width: 400px;
+		}
+		.game-item {
+		display: inline-block;
+		margin: 20px;
+		text-align: center;
+		}
+		.btn {
+		display: inline-block;
+		padding: 10px 20px;
+		background-color: #4CAF50;
+		color: white;
+		text-decoration: none;
+		border-radius: 8px;
+		transition: background-color 0.3s;
+		}
+		.container {
+			margin: 0 auto;
+			width: 100%;
+			max-width: 1200px;
+			padding: 20px;
+			border: 1px solid #ccc;
+		}
+		.container2 {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 20px; 
+			justify-content: center; 
+		}
+		.oyun {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 400px;
+			margin: 20px;
+		}
+		.form {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+		}
+		.form input, form textarea{
+			padding:10px;
+			border:1px solid #ccc;
+			border-radius: 5px;
+		}
+		.btn{
+			font-family: Clash Regular, sans-serif;
+			background-color: #ff8800;
+			color: black;
+			border:none;
+			border-radius:5px;
+			padding: 10px 15px;
+			cursor: pointer;
+		}
+		.btn:hover{
+			background-color: #de7600;
+		}
