@@ -5,7 +5,7 @@
  			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;
-			font-family: Clash Regular, sans-serif;
+			font-family: 'Clash Regular', sans-serif;
 			color: #fff;
 		}
 		h1 {
@@ -13,6 +13,13 @@
 			border-bottom:1px solid #ccc;
 		    border-radius: 5px;
 			padding:10px;
+		}
+		html {
+			scroll-behavior: smooth;
+		}
+		@font-face {
+			font-family: 'Clash Regular';
+			src: url('fonts/Clash-Regular.ttf') format('truetype');
 		}
 		.gorseller {
 			width: 300px;
@@ -66,4 +73,13 @@
 		}
 		.btn:hover{
 			background-color: #34a1e0;
+		}
+		@media (max-width: 768px) {
+		.gorseller {
+		width: 100%;
+		height: auto;
+		}
+		.oyun {
+		flex: 1 1 100%;
+		}
 		}
