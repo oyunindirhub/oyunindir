@@ -17,9 +17,28 @@
 		html {
 			scroll-behavior: smooth;
 		}
-		@font-face {
-			font-family: 'Clash Regular';
-			src: url('fonts/Clash-Regular.ttf') format('truetype');
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333333;
+		}
+		p {
+			padding:10px;
+		}
+		li {
+			float: left;
+		}
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 16px;
+			text-decoration: none;
+		}
+		li a:hover {
+			background-color: #111111;
 		}
 		.gorseller {
 			width: 300px;
@@ -33,6 +52,11 @@
 			flex-wrap: wrap;
 			gap: 20px; 
 			justify-content: center; 
+		}
+		.container2{
+			max-width:960;
+			margin:auto;
+			padding:20px;
 		}
 		.oyun {
 			display: flex;
@@ -81,5 +105,4 @@
 		}
 		.oyun {
 		flex: 1 1 100%;
-		}
 		}
